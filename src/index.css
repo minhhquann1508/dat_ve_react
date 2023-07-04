@@ -5,8 +5,50 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-image: url('./../public/img/bgmovie\ \(1\).jpg');
+  background-size: 100%;
+  overflow: auto;
 }
-
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.movie {
+  background-color: white;
+  margin-top: 70px;
+  width: 50%;
+}
+.seat {
+  width: 20px;
+  height: 20px;
+  border-radius: 5px;
+}
+.screen {
+  background-color: orange;
+  padding: 8px 0;
+  margin: 8px 0;
+}
+.gheDangDat {
+  width: 20px;
+  height: 20px;
+  margin: 0 4px;
+  border-radius: 5px;
+  background-color: green;
+}
+.gheDaDat {
+   width: 20px;
+  height: 20px;
+  margin: 0 4px;
+  border-radius: 5px;
+  background-color: red;
+}
+.gheConTrong {
+   width: 20px;
+  height: 20px;
+  margin: 0 4px;
+  border-radius: 5px;
+}
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
